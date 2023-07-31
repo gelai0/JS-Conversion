@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simple Conversion Calculator</title>
+</head>
+<body>
+    <script defer src="script/main.js"></script>
+
+
+    <div class="container">
+    <h1>Weight Converter</h1>
+    <p>Type a value in the Kilograms field to convert the value to Pounds, Ounces, Grams:</p>
+
+        <div class="row">
+            <label for="kg">Kilograms</label>
+            <input id="inputKilograms" type="number"
+            placeholder="Kilograms"  oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">;
+        </div>
+    
+
+        <p>Pounds: <span id="outputPounds"></span></p>
+        <p>Ounces: <span id="outputOunces"></span></p>
+        <p>Grams: <span id="outputGrams"></span></p>    
+    </div>
+   
+</body>
+</html>

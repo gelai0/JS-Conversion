@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(140, 173, 201);
+  border: 5px solid black;
+  margin: 20px;
+  width: 50%;
+
+}
+span {
+    background-color: antiquewhite;
+    /* width: 30px; */
+    /* margin: 10px; */
+    line-height: 20px;
+}
+.row {
+    text-align: center;
+}
+    
+
+h1 {
+    text-align: center;
+    color: rgb(194, 106, 106);
+}
+p {
+    text-align: center;
+    flex-wrap: wrap;
+}
